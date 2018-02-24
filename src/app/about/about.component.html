@@ -1,0 +1,12 @@
+<p>
+  This is what I'm all about.
+  <a href="" (click)="sendToHome()"> <strong>Take me back</strong></a>
+</p>
+
+<p>Your Bucket list ({{ itemCount }})</p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
